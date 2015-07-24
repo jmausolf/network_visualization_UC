@@ -32,23 +32,11 @@
             }
         </script>
         <style type="text/css">
-            #seadragon *{
-                text-align: center;
-            table.center {
-                margin-left:auto; 
-                margin-right:auto;
-              }
-            }
-
-        </style>
-        <style type="text/css">
          
             #seadragon {
-                width: 800px;
-                height: 600px;
+                width: 1000px;
+                height: 800px;
                 background-color: Black;
-                margin-left:auto; 
-                margin-right:auto;
             }
         </style>
 
@@ -56,24 +44,10 @@
     </head>
 
 
- 
+
     <!-- Home start -->
 
-
-    <section id="home" class="intro">
-
-        <a href="#about">
-            <div class="scroll-down">
-                <span>
-                    <i class="fa fa-angle-down fa-2x"></i>
-                </span>
-            </div>
-        </a>
-
-
-    </section>
-
-    <section class="calltoaction">
+ <section class="calltoaction">
         <section id="contact">
         <div class="container">
 
@@ -82,18 +56,22 @@
                 <div class="col-md-12 col-lg-12">
                     <h2 class="wow slideInRight" data-wow-delay=".1s">UNIVERSITY OF CHICAGO NETWORK</h2>
                     <div class="calltoaction-decription wow slideInRight" data-wow-delay=".2s">
-                    Visualization created with Gephi.
+                        Visualization created with Gephi.
                     </div>
-       
                 </div>
 
                 <div class="col-md-12 col-lg-12 calltoaction-btn wow slideInRight" data-wow-delay=".3s">
                     <body onload="start();">
 
-                        <table class="center" cellpadding="10" cellspacing="0" style="width: 100%">
-                            <td>
-                                <div id="seadragon"></div>
-                            </td>
+                        <table cellpadding="10" cellspacing="0" style="width: 100%">
+                            <tr>
+                                <td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div id="seadragon"></div>
+                                </td>
                         </table>
                 </div>
 
@@ -102,34 +80,35 @@
         </section>
     </section>
 
+    <!--body onload="start();">
 
-    <!-- About start -->
+        <table cellpadding="10" cellspacing="0" style="width: 100%">
+            <tr>
+                <td>
+                    <span style="font-size: large; font-family: Verdana; background-color: #F0F0F0;"><strong>Gephi Seadragon Export</strong></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="seadragon"></div>
+                </td>
+        </table>
 
-    <section id="about" class="pfblock pfblock-gray">
-        <div class="container">
-            <div class="row">
+    </body>
+    <!-- End -->
 
-                <div class="col-sm-6 col-sm-offset-3">
-
-                    <div class="pfblock-header wow fadeInUp">
-                        <h2 class="pfblock-title">ABOUT THIS VISUALIZATION</h2>
-                        <div class="pfblock-line"></div>
-                        <div class="pfblock-subtitle">
-                            This visualization was created in Gephi by Joshua Mausolf as part of a larger collaboration with scholars Aaron Gerow, Bowen Lou, Eamon Duede, and James Evans of the Knowledge Lab at the University of Chicago.
-
-                            For more information on these projects and others, please visit us at the <a href="http://www.knowledgelab.org/research_grants/projects/" class="btn-custom-color"> Knowledge Lab</a>.
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-    </section>
 
     <!-- Footer start -->
 
     <footer id="footer">
         <div class="container">
             <div class="row">
+
+                <div class="col-md-12 col-lg-12">
+                    <h2 class="wow slideInRight" data-wow-delay=".1s">CONTACT</h2>
+                    <div class="calltoaction-decription wow slideInRight" data-wow-delay=".2s">
+                    </div>
+                </div>
 
                 <div class="col-sm-12">
 
@@ -145,13 +124,13 @@
                     </ul>
 
                     <p class="copyright">
-                        <a href="http://jmausolf.github.io" class="btn btn-link"> © 2015 Joshua Mausolf</a>
+                        © 2015 Joshua Mausolf
                     </p>
 
                 </div>
 
-            </div>
-        </div>
+            </div><!-- .row -->
+        </div><!-- .container -->
     </footer>
 
     <!-- Footer end -->
@@ -159,7 +138,7 @@
     <!-- Scroll to top -->
 
     <div class="scroll-up">
-        <a href="#contact"><i class="fa fa-angle-up"></i></a>
+        <a href="#home"><i class="fa fa-angle-up"></i></a>
     </div>
     
     <!-- Scroll to top end-->
